@@ -198,7 +198,8 @@ Detailed changes for each release are documented in [CHANGELOG.md](./CHANGELOG.m
 
 ## License
 [MIT](LICENSE)
-[https://github.com/weblineindia/iOS-OTP-Authentication/blob/master/LICENSE]: https://github.com/weblineindia/iOS-OTP-Authentication/blob/master/LICENSE
+[mit]: https://github.com/weblineindia/iOS-OTP-Authentication/blob/master/LICENSE
 
 ## Keywords
-OTPDemo-weblineindia, otp, mobile numbrt,otp demo, Firebase, firebase OTP
+OTP, Firebase Authentication, One Time Password, OTP For iOS, OTP Authentication, Mobile Number Verficiation,
+OTP Verification, Firebase OTP Authentication, weblineindia
