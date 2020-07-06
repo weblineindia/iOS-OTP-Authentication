@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>84XXXXXXXXX--xxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps. 84XXXXXXXXX--xxxxxxxxxxxxxxxxxxxx</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>84XXXXXXXXX--xxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>84XXXXXXXXX_xxxxxxxxxxxxxxxxxxxx</string>
+	<key>GCM_SENDER_ID</key>
+	<string>84XXXXXXXXX</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.wli.DemoLoginWithOTP</string>
+	<key>PROJECT_ID</key>
+	<string>api-project-84XXXXXXXXX</string>
+	<key>STORAGE_BUCKET</key>
+	<string>api-project-84XXXXXXXXX.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:84XXXXXXXXX:ios:xxxxxxxxxxxxxxxxx</string>
+	<key>DATABASE_URL</key>
+	<string>https://api-project-84XXXXXXXXX.firebaseio.com</string>
+</dict>
+</plist>

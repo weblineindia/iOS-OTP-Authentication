@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22D03A0824AC594B00C822EB /* HelperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D03A0724AC594B00C822EB /* HelperClass.swift */; };
+		22D03A0A24AC88B900C822EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D03A0924AC88B800C822EB /* SceneDelegate.swift */; };
+		22D03A0C24AC8F8F00C822EB /* Swift_JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D03A0B24AC8F8F00C822EB /* Swift_JSON.swift */; };
+		22D1FE6424AB56680045A7F1 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1FE6024AB56680045A7F1 /* Country.swift */; };
+		22D1FE6524AB56680045A7F1 /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1FE6124AB56680045A7F1 /* CountriesViewController.swift */; };
+		22D1FE6624AB56680045A7F1 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1FE6224AB56680045A7F1 /* Countries.swift */; };
+		22D1FE6724AB56680045A7F1 /* CountriesViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1FE6324AB56680045A7F1 /* CountriesViewControllerDelegate.swift */; };
+		22D1FE6924AB56A50045A7F1 /* CountryCodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 22D1FE6824AB56A50045A7F1 /* CountryCodes.json */; };
+		22D1FE6C24AB56B30045A7F1 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1FE6B24AB56B30045A7F1 /* CountryModel.swift */; };
+		CD1C9F1923B08454009A8E81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1C9F1823B08454009A8E81 /* AppDelegate.swift */; };
+		CD1C9F1D23B08454009A8E81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1C9F1C23B08454009A8E81 /* ViewController.swift */; };
+		CD1C9F2023B08454009A8E81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1C9F1E23B08454009A8E81 /* Main.storyboard */; };
+		CD1C9F2223B08456009A8E81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1C9F2123B08456009A8E81 /* Assets.xcassets */; };
+		CD1C9F2523B08456009A8E81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1C9F2323B08456009A8E81 /* LaunchScreen.storyboard */; };
+		CD1C9F3123B08A4D009A8E81 /* PinConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1C9F2E23B08A4D009A8E81 /* PinConfig.swift */; };
+		CD1C9F3223B08A4D009A8E81 /* PinTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1C9F2F23B08A4D009A8E81 /* PinTextField.swift */; };
+		CD1C9F3323B08A4D009A8E81 /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1C9F3023B08A4D009A8E81 /* PinView.swift */; };
+		CD1C9F3523B09579009A8E81 /* ValidationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1C9F3423B09579009A8E81 /* ValidationManager.swift */; };
+		CDD96ADC23B0BD6700966907 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDD96ADB23B0BD6700966907 /* GoogleService-Info.plist */; };
+		CDD96ADE23B0C86000966907 /* FirebaseAuthenticate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD96ADD23B0C86000966907 /* FirebaseAuthenticate.swift */; };
+		F595639272E0717D264EFEDA /* Pods_OTPAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB3B88B6F7C11DD86D6005A /* Pods_OTPAuthentication.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22D03A0724AC594B00C822EB /* HelperClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperClass.swift; sourceTree = "<group>"; };
+		22D03A0924AC88B800C822EB /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22D03A0B24AC8F8F00C822EB /* Swift_JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_JSON.swift; sourceTree = "<group>"; };
+		22D1FE5E24AB4D410045A7F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		22D1FE6024AB56680045A7F1 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		22D1FE6124AB56680045A7F1 /* CountriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		22D1FE6224AB56680045A7F1 /* Countries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		22D1FE6324AB56680045A7F1 /* CountriesViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesViewControllerDelegate.swift; sourceTree = "<group>"; };
+		22D1FE6824AB56A50045A7F1 /* CountryCodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CountryCodes.json; sourceTree = "<group>"; };
+		22D1FE6B24AB56B30045A7F1 /* CountryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		314743C2D7722317059797BA /* Pods-DemoLoginWithOTP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoLoginWithOTP.release.xcconfig"; path = "Target Support Files/Pods-DemoLoginWithOTP/Pods-DemoLoginWithOTP.release.xcconfig"; sourceTree = "<group>"; };
+		423F5EE4832035A6118C6109 /* Pods-OTPAuthentication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTPAuthentication.debug.xcconfig"; path = "Target Support Files/Pods-OTPAuthentication/Pods-OTPAuthentication.debug.xcconfig"; sourceTree = "<group>"; };
+		4FD88817EC3639BFBA0BAFCE /* Pods-DemoLoginWithOTP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoLoginWithOTP.debug.xcconfig"; path = "Target Support Files/Pods-DemoLoginWithOTP/Pods-DemoLoginWithOTP.debug.xcconfig"; sourceTree = "<group>"; };
+		5EB3B88B6F7C11DD86D6005A /* Pods_OTPAuthentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTPAuthentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDE52B8F40FD296576D72E8 /* Pods-OTPAuthentication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTPAuthentication.release.xcconfig"; path = "Target Support Files/Pods-OTPAuthentication/Pods-OTPAuthentication.release.xcconfig"; sourceTree = "<group>"; };
+		CD1C9F1523B08454009A8E81 /* OTPAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OTPAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1C9F1823B08454009A8E81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD1C9F1C23B08454009A8E81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD1C9F1F23B08454009A8E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD1C9F2123B08456009A8E81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD1C9F2423B08456009A8E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD1C9F2623B08456009A8E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1C9F2E23B08A4D009A8E81 /* PinConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinConfig.swift; sourceTree = "<group>"; };
+		CD1C9F2F23B08A4D009A8E81 /* PinTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinTextField.swift; sourceTree = "<group>"; };
+		CD1C9F3023B08A4D009A8E81 /* PinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
+		CD1C9F3423B09579009A8E81 /* ValidationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationManager.swift; sourceTree = "<group>"; };
+		CDD96ADB23B0BD6700966907 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CDD96ADD23B0C86000966907 /* FirebaseAuthenticate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthenticate.swift; sourceTree = "<group>"; };
+		CDD96ADF23B0D1C600966907 /* DemoLoginWithOTP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoLoginWithOTP.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD1C9F1223B08454009A8E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F595639272E0717D264EFEDA /* Pods_OTPAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		088F39069083A33492E4A49B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EB3B88B6F7C11DD86D6005A /* Pods_OTPAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22D03A0624AC591F00C822EB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				22D03A0724AC594B00C822EB /* HelperClass.swift */,
+				22D03A0B24AC8F8F00C822EB /* Swift_JSON.swift */,
+				CD1C9F3423B09579009A8E81 /* ValidationManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		22D1FE5F24AB56530045A7F1 /* CountryCodePicker */ = {
+			isa = PBXGroup;
+			children = (
+				22D1FE6A24AB56B30045A7F1 /* CountryModel */,
+				22D1FE6824AB56A50045A7F1 /* CountryCodes.json */,
+				22D1FE6224AB56680045A7F1 /* Countries.swift */,
+				22D1FE6124AB56680045A7F1 /* CountriesViewController.swift */,
+				22D1FE6324AB56680045A7F1 /* CountriesViewControllerDelegate.swift */,
+				22D1FE6024AB56680045A7F1 /* Country.swift */,
+			);
+			path = CountryCodePicker;
+			sourceTree = "<group>";
+		};
+		22D1FE6A24AB56B30045A7F1 /* CountryModel */ = {
+			isa = PBXGroup;
+			children = (
+				22D1FE6B24AB56B30045A7F1 /* CountryModel.swift */,
+			);
+			path = CountryModel;
+			sourceTree = "<group>";
+		};
+		280949F798F6C538F183E39F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FD88817EC3639BFBA0BAFCE /* Pods-DemoLoginWithOTP.debug.xcconfig */,
+				314743C2D7722317059797BA /* Pods-DemoLoginWithOTP.release.xcconfig */,
+				423F5EE4832035A6118C6109 /* Pods-OTPAuthentication.debug.xcconfig */,
+				CCDE52B8F40FD296576D72E8 /* Pods-OTPAuthentication.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD1C9F0C23B08454009A8E81 = {
+			isa = PBXGroup;
+			children = (
+				22D1FE5E24AB4D410045A7F1 /* README.md */,
+				CD1C9F1723B08454009A8E81 /* DemoLoginWithOTP */,
+				CD1C9F1623B08454009A8E81 /* Products */,
+				280949F798F6C538F183E39F /* Pods */,
+				088F39069083A33492E4A49B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD1C9F1623B08454009A8E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD1C9F1523B08454009A8E81 /* OTPAuthentication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD1C9F1723B08454009A8E81 /* DemoLoginWithOTP */ = {
+			isa = PBXGroup;
+			children = (
+				CDD96ADF23B0D1C600966907 /* DemoLoginWithOTP.entitlements */,
+				CD1C9F2C23B08A34009A8E81 /* Resources */,
+				CD1C9F1823B08454009A8E81 /* AppDelegate.swift */,
+				22D03A0924AC88B800C822EB /* SceneDelegate.swift */,
+				CD1C9F1C23B08454009A8E81 /* ViewController.swift */,
+				CD1C9F1E23B08454009A8E81 /* Main.storyboard */,
+				CD1C9F2123B08456009A8E81 /* Assets.xcassets */,
+				CD1C9F2323B08456009A8E81 /* LaunchScreen.storyboard */,
+				CD1C9F2623B08456009A8E81 /* Info.plist */,
+				CDD96ADB23B0BD6700966907 /* GoogleService-Info.plist */,
+			);
+			path = DemoLoginWithOTP;
+			sourceTree = "<group>";
+		};
+		CD1C9F2C23B08A34009A8E81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22D1FE5F24AB56530045A7F1 /* CountryCodePicker */,
+				CD1C9F2D23B08A4D009A8E81 /* KPin */,
+				22D03A0624AC591F00C822EB /* Helper */,
+				CDD96ADD23B0C86000966907 /* FirebaseAuthenticate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CD1C9F2D23B08A4D009A8E81 /* KPin */ = {
+			isa = PBXGroup;
+			children = (
+				CD1C9F2E23B08A4D009A8E81 /* PinConfig.swift */,
+				CD1C9F2F23B08A4D009A8E81 /* PinTextField.swift */,
+				CD1C9F3023B08A4D009A8E81 /* PinView.swift */,
+			);
+			path = KPin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD1C9F1423B08454009A8E81 /* OTPAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1C9F2923B08456009A8E81 /* Build configuration list for PBXNativeTarget "OTPAuthentication" */;
+			buildPhases = (
+				33991EAD66DF45DF8B508923 /* [CP] Check Pods Manifest.lock */,
+				CD1C9F1123B08454009A8E81 /* Sources */,
+				CD1C9F1223B08454009A8E81 /* Frameworks */,
+				CD1C9F1323B08454009A8E81 /* Resources */,
+				F0CF9C8B5C943421729C4C2E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTPAuthentication;
+			productName = DemoLoginWithOTP;
+			productReference = CD1C9F1523B08454009A8E81 /* OTPAuthentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD1C9F0D23B08454009A8E81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "WiOS Sanya S Pillai";
+				TargetAttributes = {
+					CD1C9F1423B08454009A8E81 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CD1C9F1023B08454009A8E81 /* Build configuration list for PBXProject "OTPAuthentication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD1C9F0C23B08454009A8E81;
+			productRefGroup = CD1C9F1623B08454009A8E81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD1C9F1423B08454009A8E81 /* OTPAuthentication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD1C9F1323B08454009A8E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D1FE6924AB56A50045A7F1 /* CountryCodes.json in Resources */,
+				CD1C9F2523B08456009A8E81 /* LaunchScreen.storyboard in Resources */,
+				CDD96ADC23B0BD6700966907 /* GoogleService-Info.plist in Resources */,
+				CD1C9F2223B08456009A8E81 /* Assets.xcassets in Resources */,
+				CD1C9F2023B08454009A8E81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33991EAD66DF45DF8B508923 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OTPAuthentication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0CF9C8B5C943421729C4C2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTPAuthentication/Pods-OTPAuthentication-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTPAuthentication/Pods-OTPAuthentication-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTPAuthentication/Pods-OTPAuthentication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD1C9F1123B08454009A8E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D1FE6624AB56680045A7F1 /* Countries.swift in Sources */,
+				22D03A0C24AC8F8F00C822EB /* Swift_JSON.swift in Sources */,
+				CDD96ADE23B0C86000966907 /* FirebaseAuthenticate.swift in Sources */,
+				22D1FE6C24AB56B30045A7F1 /* CountryModel.swift in Sources */,
+				22D1FE6424AB56680045A7F1 /* Country.swift in Sources */,
+				22D03A0A24AC88B900C822EB /* SceneDelegate.swift in Sources */,
+				CD1C9F1D23B08454009A8E81 /* ViewController.swift in Sources */,
+				22D03A0824AC594B00C822EB /* HelperClass.swift in Sources */,
+				22D1FE6524AB56680045A7F1 /* CountriesViewController.swift in Sources */,
+				CD1C9F1923B08454009A8E81 /* AppDelegate.swift in Sources */,
+				CD1C9F3323B08A4D009A8E81 /* PinView.swift in Sources */,
+				CD1C9F3223B08A4D009A8E81 /* PinTextField.swift in Sources */,
+				CD1C9F3123B08A4D009A8E81 /* PinConfig.swift in Sources */,
+				22D1FE6724AB56680045A7F1 /* CountriesViewControllerDelegate.swift in Sources */,
+				CD1C9F3523B09579009A8E81 /* ValidationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD1C9F1E23B08454009A8E81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1C9F1F23B08454009A8E81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD1C9F2323B08456009A8E81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1C9F2423B08456009A8E81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD1C9F2723B08456009A8E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD1C9F2823B08456009A8E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD1C9F2A23B08456009A8E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 423F5EE4832035A6118C6109 /* Pods-OTPAuthentication.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DemoLoginWithOTP/DemoLoginWithOTP.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEVELOPMENT_TEAM = 23X7D73PKS;
+				INFOPLIST_FILE = DemoLoginWithOTP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wli.DemoLoginWithOTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = WildCard_Dev;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD1C9F2B23B08456009A8E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCDE52B8F40FD296576D72E8 /* Pods-OTPAuthentication.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DemoLoginWithOTP/DemoLoginWithOTP.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEVELOPMENT_TEAM = 23X7D73PKS;
+				INFOPLIST_FILE = DemoLoginWithOTP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wli.DemoLoginWithOTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = WildCard_Dev;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD1C9F1023B08454009A8E81 /* Build configuration list for PBXProject "OTPAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1C9F2723B08456009A8E81 /* Debug */,
+				CD1C9F2823B08456009A8E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1C9F2923B08456009A8E81 /* Build configuration list for PBXNativeTarget "OTPAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1C9F2A23B08456009A8E81 /* Debug */,
+				CD1C9F2B23B08456009A8E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD1C9F0D23B08454009A8E81 /* Project object */;
+}
