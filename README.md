@@ -1,4 +1,6 @@
-This demo provide to verify your mobile number with OTP(One Time Password)
+# iOS OTP Authentication
+
+This demo is of iOS based OTP Authentication, used to verify your mobile number with OTP (One Time Password).
 
 ## Table of contents
 - [iOS Support](#iOS-support)
