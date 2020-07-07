@@ -10,6 +10,7 @@ This demo provide to verify your mobile number with OTP(One Time Password)
 - [Directive options](#directive-options)
 - [Want to Contribute?](#want-to-contribute)
 - [Need Help / Support?](#need-help)
+- [Collection of Components](#collection-of-Components)
 - [Changelog](#changelog)
 - [License](#license)
 - [Keywords](#Keywords)
@@ -191,6 +192,11 @@ show country picker use of below method help of CountriesViewController class ob
 We also provide a free, basic support for all users who want to use this OTP verification demo in project. In case you want to customize this OTP demo input to suit your development needs, then feel free to contact our [iOS
 developers](https://www.weblineindia.com/hire-ios-app-developers.html).
 
+ ------
+ 
+ ## Collection of Components
+ We have built many other components and free resources for software development in various programming languages. Kindly click here to view our [Free Resources for Software Development.](https://www.weblineindia.com/software-development-resources.html)
+ 
 ------
 
 ## Changelog
