@@ -134,7 +134,7 @@ class ViewController: UIViewController {
             FirebaseAuthenticate.firSharedInstance.verifyOTP(otpCode: otpCode, onSuccess: { (useraData, isVerified) in
                
                 HelperClass.hideActivityIndicator(uiView: self.view)
-                self.showAlertMessage("Successful")
+                self.showAlertMessage("OTP Verified Successfully")
 
                 self.lblTitle.text = "Login"
                 self.lblSubTitle.text = "Enter your mobile number to receive a verification code"

@@ -311,6 +311,7 @@ public final class CountriesViewController: UIViewController, UISearchBarDelegat
     public class func show(countriesViewController coVar: CountriesViewController, toVar: UIViewController) {
 
         let navController  = UINavigationController(rootViewController: coVar)
+        navController.navigationBar.backgroundColor = UIColor.white
         toVar.present(navController, animated: true) { () -> Void in }
 
     }

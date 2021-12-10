@@ -20,7 +20,7 @@ This demo is of iOS based OTP Authentication, used to verify your mobile number 
 
 ## iOS Support
 
-Version - iOS 12, iOS 13
+Version - iOS 13.x or later
 
 We have tested our program in above versions, however you can use it in other versions as well
 
